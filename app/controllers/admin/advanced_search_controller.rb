@@ -119,8 +119,8 @@ module Admin
       ## FACETS
       #
       # Publication State
-      config.add_facet_field Settings.FIELDS.B1G_PUBLICATION_STATE, label: "Publication State", limit: 8,
-        collapse: false
+      config.add_facet_field Settings.FIELDS.B1G_PUBLICATION_STATE, label: "Publication State", limit: 8
+        #collapse: false
 
       # Resouce Class
       config.add_facet_field Settings.FIELDS.RESOURCE_CLASS, label: "Resource Class", limit: 8
